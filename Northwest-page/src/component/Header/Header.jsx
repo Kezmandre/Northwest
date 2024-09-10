@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <div>
-        <div className="w-screen h-[30px] bg-[#0B6A42] text-white">
+        <div className=" h-[30px] bg-[#0B6A42] text-white">
           <marquee direction="">
             <div className=" flex justify-evenly font-Urbanist text-md">
               <span>Northwest! More Than You Expect</span>{" "}
@@ -28,7 +28,7 @@ const Header = () => {
             <div className=" w-[50px] lg:w-[80px]">
               <img src={Logo} alt="" className="w-full" />
             </div>
-            <nav className=" hidden lg:flex items-center space-x-8 list-none  font-medium font-Roboto">
+            <nav className=" hidden lg:flex items-center space-x-8 list-none  font-medium font-Inter">
               {navData?.map((item) => {
                 return (
                   <ul className="" key={item.id}>

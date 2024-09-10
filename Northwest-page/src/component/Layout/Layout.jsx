@@ -1,13 +1,14 @@
-import Header from "../Header/Header"
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
 
-
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <>
-    <Header/>
-    <main>{children}</main>
+      <Header />
+      <main className="min-h-[70vh]">{children}</main>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
