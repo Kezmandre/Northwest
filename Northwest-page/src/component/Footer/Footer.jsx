@@ -1,4 +1,7 @@
 import React from "react";
+import { MdLocationOn } from "react-icons/md";
+import { BsFillTelephoneOutboundFill, BsTwitterX } from "react-icons/bs";
+import { FaFacebookF, FaLinkedinIn, FaInstagramSquare } from "react-icons/fa";
 import Logo from "../../component/Images/northwest_petroleum_logo.png";
 
 const Footer = () => {
@@ -85,7 +88,63 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>Contact Us</div>
+        <div className="max-w-[350px]">
+          Contact Us
+          <div className="flex justify-start items-center space-x-3 mt-4">
+            <MdLocationOn className="text-white" />
+            <span className="text-[12px]">
+              Plot 202, Etim Inyang Crescent, Victoria Island, Lagos.
+            </span>
+          </div>
+          <div className="flex justify-start items-center space-x-3 mt-4">
+            <BsFillTelephoneOutboundFill className="text-[12px]" />
+            <span className="text-[12px]">
+              +234 1 2716597, 4619698, 2806870-1 Fax: 01 2703042
+            </span>
+          </div>
+          <div className="flex justify-start items-center space-x-3 mt-4">
+            <MdLocationOn className="text-white" />
+            <span className="text-[12px]">
+              Calabar Free Trade Zone, Calabar, Cross River State, Nigeria.
+            </span>
+          </div>
+          <div className="flex justify-start items-center space-x-3 mt-4">
+            <BsFillTelephoneOutboundFill className="text-[12px]" />
+            <span className="text-[12px]">Tel: +234 70 3900 4000</span>
+          </div>
+          <div className="flex justify-start items-center space-x-3 mt-4">
+            <MdLocationOn className="text-white" />
+            <span className="text-[12px]">
+              1, Tennessee Crescent, Maitama, Abuja.
+            </span>
+          </div>
+          <div className="flex justify-start items-center space-x-3 mt-4">
+            <BsFillTelephoneOutboundFill className="text-[12px]" />
+            <span className="text-[12px]">+234 8022500500</span>
+          </div>
+          <div className=" flex justify-start items-center gap-4 mt-6">
+            <div className="flex justify-center items-center w-[40px] h-[40px] rounded-full bg-white">
+              <a href="https://web.facebook.com/northwestpetroleumgas/?_rdc=1&_rdr">
+                <FaFacebookF className="text-[#0B6A42]" />
+              </a>
+            </div>
+            <div className=" flex justify-center items-center w-[40px] h-[40px] rounded-full bg-white">
+              <a href="https://x.com/northwestpetgas?t=oWOQsBnleyN_vfFlNYHP2Q&s=08">
+                <BsTwitterX className="text-[#0B6A42]" />
+              </a>
+            </div>
+            <div className=" flex justify-center items-center w-[40px] h-[40px] rounded-full bg-white">
+              <a href="https://www.linkedin.com/company/northwest-petroleum-&-gas-co.-ltd/?originalSubdomain=ng">
+                <FaLinkedinIn className="text-[#0B6A42]" />
+              </a>
+            </div>
+            <div className=" flex justify-center items-center w-[40px] h-[40px] rounded-full bg-white">
+              <a href="https://www.instagram.com/northwestpetroleumgas/?hl=en">
+                <FaInstagramSquare className="text-[#0B6A42]" />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
