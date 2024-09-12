@@ -1,14 +1,17 @@
 import React from "react";
-import { MdLocationOn } from "react-icons/md";
+import { MdLocationOn,MdEmail } from "react-icons/md";
 import { BsFillTelephoneOutboundFill, BsTwitterX } from "react-icons/bs";
 import { FaFacebookF, FaLinkedinIn, FaInstagramSquare } from "react-icons/fa";
 import Logo from "../../component/Images/northwest_petroleum_logo.png";
 
 const Footer = () => {
+
+  const date = new Date()
   return (
+    <>
     <div className="w-full bg-[#0B6A42]  overflow-hidden">
-      <div className="w-[92%] mx-auto pb-6 pt-6 flex justify-between text-white font-Inter">
-        <div className="w-[80px]">
+      <div className="w-[90%] mx-auto pb-6 pt-6 flex-col lg:flex-row flex justify-between items-start text-white font-Inter">
+        <div className="w-[80px] mb-8 lg:mb-0">
           <img src={Logo} alt="" className="w-full" />
         </div>
         <div>
@@ -32,7 +35,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h5 className="pb-4">Products</h5>
+          <h5 className="pb-4 mt-8 lg:mt-0">Products</h5>
           <ul className="text-[12px] space-y-4">
             {" "}
             <li className="hover:text-[#719532]">
@@ -53,7 +56,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h5 className="pb-4">Services</h5>
+          <h5 className="pb-4 mt-8 lg:mt-0">Services</h5>
           <ul className="text-[12px] space-y-4">
             {" "}
             <li className="hover:text-[#719532]">
@@ -88,7 +91,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="max-w-[350px]">
+        <div className="max-w-[350px] mt-8 lg:mt-0">
           Contact Us
           <div className="flex justify-start items-center space-x-3 mt-4">
             <MdLocationOn className="text-white" />
@@ -109,18 +112,30 @@ const Footer = () => {
             </span>
           </div>
           <div className="flex justify-start items-center space-x-3 mt-4">
-            <BsFillTelephoneOutboundFill className="text-[12px]" />
+            <BsFillTelephoneOutboundFill className="text-[14px]" />
             <span className="text-[12px]">Tel: +234 70 3900 4000</span>
           </div>
           <div className="flex justify-start items-center space-x-3 mt-4">
             <MdLocationOn className="text-white" />
-            <span className="text-[12px]">
+            <span className="text-[14px]">
               1, Tennessee Crescent, Maitama, Abuja.
             </span>
           </div>
           <div className="flex justify-start items-center space-x-3 mt-4">
             <BsFillTelephoneOutboundFill className="text-[12px]" />
             <span className="text-[12px]">+234 8022500500</span>
+          </div>
+          <div className="flex justify-start items-center space-x-3 mt-4">
+            <MdEmail className="text-[12px]" />
+            <a href="mailto:hr@northwestpetroleum-ng.com" className="text-[12px]">hr@northwestpetroleum-ng.com</a>
+          </div>
+          <div className="flex justify-start items-center space-x-3 mt-4">
+            <MdEmail className="text-[12px]" />
+            <a href="mailto:wecare@northwestpetroleum-ng.com"  className="text-[12px]" >wecare@northwestpetroleum-ng.com</a>
+          </div>
+          <div className="flex justify-start items-center space-x-3 mt-4">
+            <MdEmail className="text-[12px]" />
+            <a href="mailto:info@northwestpetroleum-ng.com"  className="text-[12px]">info@northwestpetroleum-ng.com</a>
           </div>
           <div className=" flex justify-start items-center gap-4 mt-6">
             <div className="flex justify-center items-center w-[40px] h-[40px] rounded-full bg-white">
@@ -147,6 +162,12 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    <div className="bg-white p-8">
+      <div className="w-[92%] mx-auto font-Poppins text-center lg:text-start text-[#0B6A42]">
+        <span>Copyright &copy; {date.getFullYear()} | Northwest Oil and Gas</span>
+      </div>
+    </div>
+    </>
   );
 };
 

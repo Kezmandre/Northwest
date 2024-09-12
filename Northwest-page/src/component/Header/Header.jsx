@@ -23,7 +23,9 @@ const Header = () => {
             </div>
           </marquee>
         </div>
-        <div className="bg-white overflow-hidden">
+       
+      </div>
+      <div className="m-0 sticky top-0 z-50 bg-white overflow-hidden">
           <div className="relative w-[92%] mx-auto p-4 flex justify-between items-center">
             <div className=" w-[50px] lg:w-[80px]">
               <img src={Logo} alt="" className="w-full" />
@@ -47,7 +49,6 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
       {toggle ? (
         <div className="lg:hidden fixed w-screen h-screen top-7 left-0 bg-white translate-x-0 duration-[950ms] z-20">
           <div className="absolute top-4 right-6">
