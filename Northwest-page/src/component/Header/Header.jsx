@@ -13,7 +13,7 @@ const Header = () => {
   };
   return (
     <>
-      <div>
+      <div className="p-0 m-0 box-border">
         <div className=" h-[30px] bg-[#0B6A42] text-white">
           <marquee direction="">
             <div className=" flex justify-evenly font-Urbanist text-md">

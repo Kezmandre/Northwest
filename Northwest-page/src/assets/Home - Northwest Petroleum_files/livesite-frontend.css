@@ -1,0 +1,28 @@
+/* Styles the payment button */
+.ls-payment-button-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.ls-payment-button {
+    display: inline-block;
+    border: 1px solid #ddb54c;
+    padding: 10px 45px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg, #fedc83 0, #f0c85f 100%);
+    font-family: sans-serif;
+    color: #46360c;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.ls-payment-button-icons {
+    background-image: url(../images/ls-payment-icons.png);
+    background-repeat: no-repeat;
+    width: 153px;
+    height: 19px;
+    display: block;
+    margin: 0 auto;
+}

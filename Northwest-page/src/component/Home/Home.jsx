@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import Slider from "../Slider/Slider";
+import HomeAbout from "../HomeAbout/HomeAbout";
 
 const Home = () => {
   return (
-    <div className='bg-green-300 h-[70vh]'>Home</div>
-  )
-}
+    <div className="">
+      <Slider />
 
-export default Home
+      <HomeAbout />
+    </div>
+  );
+};
+
+export default Home;
