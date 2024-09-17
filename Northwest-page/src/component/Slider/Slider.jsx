@@ -32,7 +32,7 @@ const Slider = () => {
   return (
     <div className="m-0 p-0 relative w-full">
         <div className="relative">
-        <div className="relative w-full h-[80vh] opacity-100 overflow-hidden">
+        <div className="relative w-full h-[90vh] opacity-100 overflow-hidden">
         <img
           src={sliderImage[currentIndex].image}
           alt=""
