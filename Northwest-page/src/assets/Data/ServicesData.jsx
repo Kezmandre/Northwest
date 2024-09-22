@@ -8,6 +8,7 @@ import Transport from "../../component/Images/north_truck.jpg";
 import lubricant from "../../component/Images/lubricant.jpeg";
 import refinery from "../../component/Images/Refinery.jpeg";
 import aviation from "../../component/Images/Aviation.jpeg";
+import CNG from "../../component/Images/CNG.jpeg";
 import quality from "../../component/Images/certification.jpeg";
 
 export const ServicesData = [
@@ -70,9 +71,14 @@ export const ServicesData = [
     image: aviation,
     text: "Aviation",
   },
-
   {
     id: 11,
+    image: CNG,
+    text: "Compressed Natural Gas",
+  },
+
+  {
+    id: 12,
     image: quality,
     text: "Quality Certifications",
   },

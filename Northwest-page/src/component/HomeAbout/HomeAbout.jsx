@@ -5,7 +5,7 @@ import north_plant from "../Images/north_plant.jpeg";
 const HomeAbout = () => {
   return (
     <div className="pb-10 m-0 bg-slate-100">
-      <div className="w-[92%] pt-20 pb-8 mx-auto">
+      <div className="w-[90%] pt-20 pb-8 mx-auto">
         <div className="flex justify-between items-center gap-6">
           <div className="w-1/2">
             <h2 className="text-[#0B6A42] text-xl font-semibold font-Poppins">

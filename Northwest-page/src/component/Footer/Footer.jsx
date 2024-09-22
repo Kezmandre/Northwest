@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div>
           <h5 className="pb-4">About Us</h5>
-          <ul className="text-[12px] space-y-4 ">
+          <ul className="text-[12px] font-semibold space-y-4 ">
             <li className="hover:text-[#719532]">
               <a href="">Mission and Vision</a>
             </li>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div>
           <h5 className="pb-4 mt-8 lg:mt-0">Products</h5>
-          <ul className="text-[12px] space-y-4">
+          <ul className="text-[12px] font-semibold space-y-4">
             {" "}
             <li className="hover:text-[#719532]">
               <a href="">Premium Motor Spirit (PMS)</a>
@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
         <div>
           <h5 className="pb-4 mt-8 lg:mt-0">Services</h5>
-          <ul className="text-[12px] space-y-4">
+          <ul className="text-[12px] font-semibold space-y-4">
             {" "}
             <li className="hover:text-[#719532]">
               <a href="">Oil Trading</a>
@@ -83,7 +83,7 @@ const Footer = () => {
             <li className="hover:text-[#719532]">
               <a href="">Lubricant and Additives</a>
             </li>
-            <li>
+            <li className="hover:text-[#719532]">
               <a href="">Refinery</a>
             </li>
             <li className="hover:text-[#719532]">
@@ -95,47 +95,47 @@ const Footer = () => {
           Contact Us
           <div className="flex justify-start items-center space-x-3 mt-4">
             <MdLocationOn className="text-white" />
-            <span className="text-[12px]">
+            <span className="text-[12px] font-semibold">
               Plot 202, Etim Inyang Crescent, Victoria Island, Lagos.
             </span>
           </div>
           <div className="flex justify-start items-center space-x-3 mt-4">
             <BsFillTelephoneOutboundFill className="text-[12px]" />
-            <span className="text-[12px]">
+            <span className="text-[12px] font-semibold">
               +234 1 2716597, 4619698, 2806870-1 Fax: 01 2703042
             </span>
           </div>
           <div className="flex justify-start items-center space-x-3 mt-4">
             <MdLocationOn className="text-white" />
-            <span className="text-[12px]">
+            <span className="text-[12px] font-semibold">
               Calabar Free Trade Zone, Calabar, Cross River State, Nigeria.
             </span>
           </div>
           <div className="flex justify-start items-center space-x-3 mt-4">
             <BsFillTelephoneOutboundFill className="text-[14px]" />
-            <span className="text-[12px]">Tel: +234 70 3900 4000</span>
+            <span className="text-[12px] font-semibold">Tel: +234 70 3900 4000</span>
           </div>
           <div className="flex justify-start items-center space-x-3 mt-4">
             <MdLocationOn className="text-white" />
-            <span className="text-[14px]">
+            <span className="text-[14px] font-semibold">
               1, Tennessee Crescent, Maitama, Abuja.
             </span>
           </div>
           <div className="flex justify-start items-center space-x-3 mt-4">
-            <BsFillTelephoneOutboundFill className="text-[12px]" />
-            <span className="text-[12px]">+234 8022500500</span>
+            <BsFillTelephoneOutboundFill className="text-[12px] font-semibold" />
+            <span className="text-[12px] font-semibold">+234 8022500500</span>
           </div>
           <div className="flex justify-start items-center space-x-3 mt-4">
-            <MdEmail className="text-[12px]" />
-            <a href="mailto:hr@northwestpetroleum-ng.com" className="text-[12px]">hr@northwestpetroleum-ng.com</a>
+            <MdEmail className="text-[12px] font-semibold" />
+            <a href="mailto:hr@northwestpetroleum-ng.com" className="text-[12px] font-semibold">hr@northwestpetroleum-ng.com</a>
           </div>
           <div className="flex justify-start items-center space-x-3 mt-4">
-            <MdEmail className="text-[12px]" />
-            <a href="mailto:wecare@northwestpetroleum-ng.com"  className="text-[12px]" >wecare@northwestpetroleum-ng.com</a>
+            <MdEmail className="text-[12px] font-semibold" />
+            <a href="mailto:wecare@northwestpetroleum-ng.com"  className="text-[12px] font-semibold" >wecare@northwestpetroleum-ng.com</a>
           </div>
           <div className="flex justify-start items-center space-x-3 mt-4">
-            <MdEmail className="text-[12px]" />
-            <a href="mailto:info@northwestpetroleum-ng.com"  className="text-[12px]">info@northwestpetroleum-ng.com</a>
+            <MdEmail className="text-[12px] font-semibold" />
+            <a href="mailto:info@northwestpetroleum-ng.com"  className="text-[12px] font-semibold">info@northwestpetroleum-ng.com</a>
           </div>
           <div className=" flex justify-start items-center gap-4 mt-6">
             <div className="flex justify-center items-center w-[40px] h-[40px] rounded-full bg-white">
