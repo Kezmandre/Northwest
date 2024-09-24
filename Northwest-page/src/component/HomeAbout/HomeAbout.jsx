@@ -5,15 +5,15 @@ import north_plant from "../Images/north_plant.jpeg";
 const HomeAbout = () => {
   return (
     <div className="pb-10 m-0 bg-slate-100">
-      <div className="w-[90%] pt-20 pb-8 mx-auto">
-        <div className="flex justify-between items-center gap-6">
-          <div className="w-1/2">
+      <div className="w-[90%] pt-10 lg:pt-20 pb-8 mx-auto">
+        <div className="flex-col lg:flex-row flex justify-between items-center gap-6">
+          <div className="w-full lg:w-1/2">
             <h2 className="text-[#0B6A42] text-xl font-semibold font-Poppins">
               Northwest Oil and Gas
             </h2>
             <i>More than you expect</i>
 
-            <h1 className="font-bold font-Poppins text-2xl pt-4">
+            <h1 className="font-bold font-Poppins text-lg lg:text-2xl pt-4">
               We are a Leading Force In The Downstream Oil and Gas Industry in
               Nigeria
             </h1>
@@ -35,18 +35,18 @@ const HomeAbout = () => {
               More About Us
             </button>
           </div>
-          <div className="w-1/2 flex justify-center   gap-4 items-center">
-            <div className=" w-1/2 h-[400px]">
+          <div className="w-full lg:w-1/2 flex-col lg:flex-row flex justify-center gap-4 items-center">
+            <div className="w-full lg:w-1/2 h-[400px] mb-8 lg:mb-0">
               <div className=" h-[370px]">
                 <img src={north_product} alt="" className="w-full h-full" />
               </div>
-              <div className="p-4 text-white font-Urbanist text-[15px] text-center bg-[#0B6A42]">Petroleum Product Importation</div>
+              <div className="p-4 text-white font-Urbanist text-[15px] lg:text-[13px] text-center bg-[#0B6A42]">Petroleum Product Importation</div>
             </div>
-            <div className=" w-1/2 h-[400px]">
+            <div className="w-full lg:w-1/2 h-[400px]">
               <div className=" h-[370px]">
                 <img src={north_plant} alt="" className="w-full h-full" />
               </div>
-              <div className="p-4 text-white font-Urbanist text-[15px] text-center bg-[#0B6A42]"> Lubricant Production and Marketing</div>
+              <div className="p-4 text-white font-Urbanist text-[15px] lg:text-[13px] text-center bg-[#0B6A42]"> Lubricant Production and Marketing</div>
             </div>
           </div>
         </div>

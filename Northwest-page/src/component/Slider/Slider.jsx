@@ -32,7 +32,7 @@ const Slider = () => {
   return (
     <div className="m-0 p-0 relative w-full">
         <div className="relative">
-        <div className="relative w-full h-[90vh] opacity-100 overflow-hidden">
+        <div className="relative w-full h-[60vh] lg:h-[90vh] opacity-100 overflow-hidden">
         <img
           src={sliderImage[currentIndex].image}
           alt=""
@@ -41,7 +41,7 @@ const Slider = () => {
       </div>
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
       <div
-        className={`absolute top-0 left-0 w-full h-full flex items-center justify-center   text-white font-extrabold text-6xl transition-all duration-700 ease-out ${
+        className={`absolute top-0 left-0 w-full h-full flex items-center justify-center text-white font-extrabold text-2xl md:text-4xl lg:text-6xl transition-all duration-700 ease-out ${
           text ? "opacity-100 -translate-x-0" : "opacity-0 translate-x-full"
         }`}
       >
@@ -52,13 +52,13 @@ const Slider = () => {
 
       <button
         onClick={next}
-        className=" absolute top-1/2 right-2 transform -translate-y-1/2 bg-black bg-opacity-50 hover:bg-green-600 text-white p-2 rounded-full focus:outline-none"
+        className=" absolute top-1/2 right-1 transform -translate-y-1/2 bg-black bg-opacity-50 hover:bg-green-600 text-white p-2 rounded-full focus:outline-none"
       >
         <FaChevronRight />
       </button>
       <button
         onClick={previous}
-        className=" absolute top-1/2 left-2 transform -translate-y-1/2 bg-black bg-opacity-50 hover:bg-green-600 text-white p-2 rounded-full focus:outline-none"
+        className=" absolute top-1/2 left-1 transform -translate-y-1/2 bg-black bg-opacity-50 hover:bg-green-600 text-white p-2 rounded-full focus:outline-none"
       >
         <FaChevronLeft />
       </button>

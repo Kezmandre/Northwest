@@ -25,8 +25,8 @@ const Header = () => {
         </div>
        
       </div>
-      <div className="m-0 sticky top-0 z-50 bg-white overflow-hidden">
-          <div className="relative w-[92%] mx-auto p-4 flex justify-between items-center">
+      <div className="m-0 sticky top-0 z-30 bg-white overflow-hidden">
+          <div className="relative w-[92%] mx-auto p-3 flex justify-between items-center">
             <div className=" w-[50px] lg:w-[80px]">
               <img src={Logo} alt="" className="w-full" />
             </div>
@@ -41,7 +41,7 @@ const Header = () => {
                 );
               })}
             </nav>
-            <div className="absolute top-4 right-4">
+            <div className="absolute cursor-pointer top-4 right-4">
               <AiOutlineMenu
                 className="lg:hidden text-3xl hover:text-[#0B6A42]"
                 onClick={showToggle}
@@ -50,7 +50,7 @@ const Header = () => {
           </div>
         </div>
       {toggle ? (
-        <div className="lg:hidden fixed w-screen h-screen top-7 left-0 bg-white translate-x-0 duration-[950ms] z-20">
+        <div className="lg:hidden fixed w-screen h-screen top-7 left-0 bg-white translate-x-0 duration-[950ms] z-50">
           <div className="absolute top-4 right-6">
             <ImCancelCircle
               onClick={showToggle}

@@ -78,7 +78,7 @@ const Footer = () => {
               <a href="">Gas</a>
             </li>
             <li className="hover:text-[#719532]">
-              <a href="">Transport and Linguistics</a>
+              <a href="">Transport and Logistics</a>
             </li>
             <li className="hover:text-[#719532]">
               <a href="">Lubricant and Additives</a>
@@ -117,7 +117,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-start items-center space-x-3 mt-4">
             <MdLocationOn className="text-white" />
-            <span className="text-[14px] font-semibold">
+            <span className="text-[12px] font-semibold">
               1, Tennessee Crescent, Maitama, Abuja.
             </span>
           </div>
