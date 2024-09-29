@@ -1,20 +1,23 @@
 export const navData = [
-    {   id:1,
+    {   id:"home",
         title:"Home",
         path:"/",
+        hasSubNav:false
 
     },
 
     {
         id :2,
         title:"About Us",
-        path:"/about-us"
+        path:"/about-us",
+        hasSubNav:true
     },
 
     {
         id :3,
         title:"Retail",
-        path:"/retail"
+        path:"/retail",
+        hasSubNav:true
     },
 
     {
