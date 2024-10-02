@@ -63,7 +63,7 @@ const Header = () => {
                     onMouseLeave={() => setHoverId(null)}
                   >
                     {hoverId === item.id && item.hasSubNav && (
-                      <div className="fixed z-40 top-[100px] h-auto pb-6 w-[90%] left-[65px] bg-white shadow-lg transition-opacity duration-300 ease-in-out opacity-100">
+                      <div className="fixed z-40 top-[80px] h-auto pb-6 w-[90%] left-[65px] bg-white shadow-lg transition-opacity duration-300 ease-in-out opacity-100">
                         {subNavComponent(item.id)}
                       </div>
                     )}
@@ -82,7 +82,7 @@ const Header = () => {
         </div>
       </div>
       {toggle ? (
-        <div className="lg:hidden fixed w-screen h-screen top-7 left-0 bg-white translate-x-0 duration-[950ms] z-50">
+        <div className="lg:hidden fixed w-screen h-screen top-0 left-0 bg-white translate-x-0 duration-[950ms] z-50">
           <div className="absolute top-4 right-6">
             <ImCancelCircle
               onClick={showToggle}
