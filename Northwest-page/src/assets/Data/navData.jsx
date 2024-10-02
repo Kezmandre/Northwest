@@ -23,13 +23,15 @@ export const navData = [
     {
         id :4,
         title:"Corporates",
-        path:"/corporates"
+        path:"/corporates",
+        hasSubNav:true
     },
 
     {
         id :5,
         title:"CSR",
-        path:"/csr"
+        path:"/csr",
+        hasSubNav:true
     },
 
     {
